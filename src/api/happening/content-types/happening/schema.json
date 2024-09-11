@@ -44,7 +44,13 @@
       "required": true
     },
     "category": {
-      "type": "string",
+      "type": "enumeration",
+      "enum": [
+        "Arte",
+        "Gastronomía",
+        "Música",
+        "Cultura"
+      ],
       "required": true
     }
   }

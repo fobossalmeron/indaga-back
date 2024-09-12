@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'strapi-app',
+        name: 'indaga-back',
         cwd: '/root/indaga-back/dist/build', // must have absolute path
         script: 'npm',
         args: 'start',
